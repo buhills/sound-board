@@ -3,10 +3,27 @@
 }
 
 body {
+  background-color: #a164df;
   font-family: sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: hidden;
   margin: 0;
+}
+
+.btn {
+  background-color: #639;
+  border-radius: 5px;
+  font-family: inherit;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.btn:focus {
+  opacity: 0.9;
 }
